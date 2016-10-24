@@ -6,4 +6,4 @@ RUN apk --no-cache add nfs-utils \
 
 add ./start.sh /opt/
 
-CMD /opt/start.sh
+CMD sh /opt/start.sh
